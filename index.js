@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("hello im bot_1");
+	bot.chat("/join lostsmphere");
 });
 
 bot.on('time', function(time) {
